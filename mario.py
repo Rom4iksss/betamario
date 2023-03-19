@@ -57,7 +57,7 @@ clock = pg.time.Clock()
 
 
 player = Player('mario.png', 100, 575, 70, 100)
-pol = GameSprite('pol.png', -300, 600, 1200, 200, 0)
+
 
 
 game = True
@@ -67,7 +67,7 @@ while game:
             game = False
     
     bg_sprite.reset()
-    pol.reset()
+
     player.reset()
     player.move()
     
